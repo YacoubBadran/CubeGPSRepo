@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <ApplicationIcon />
+    <StartupObject />
+    <AssemblyName>CubeGPS.Business</AssemblyName>
+    <RootNamespace>CubeGPS.Business</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Nancy" Version="2.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CubeGPS.Infrastructure\CubeGPS.Infrastructure.csproj" />
+    <ProjectReference Include="..\CubeGPS.Repository\CubeGPS.Repository.csproj" />
+  </ItemGroup>
+
+</Project>
